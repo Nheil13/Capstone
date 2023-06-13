@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/bbc16bf572.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="register.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <title>Pet Allies</title>
+    </head>
+<body>
+    <section class="container">
+        <header>Registration Form</header>
+        <form action="#" class="form">
+            <!---------- Input Box  ---------->
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" name="full-name" placeholder="Enter your Full Name" required>
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <div class="input-box">
+                <label>Phone Number</label>
+                <input type="tel" name="tel" placeholder="Enter your Phone Number">
+            </div>
+            <div class="input-box">
+                <label>Address</label>
+                <input type="text" name="address" placeholder="Enter your Address">
+            </div>
+            <div class="input-box">
+                <label>Pet Name</label>
+                <input type="text" name="pet-name" placeholder="Enter your Pet's Name">
+            </div>
+            <!---------- Gender Box ---------->
+            <div class="sex-box">
+                <h3>Pet's Sex</h3>
+                <div class="sex-option">
+                    <div class="sex">
+                        <input type="radio" id="check" name="male" required/>
+                        <label for="check">Male</label>
+                    </div>
+                    <div class="sex">
+                        <input type="radio" id="check" name="female" required/>
+                        <label for="check">Female</label>
+                    </div>
+                </div>
+            </div>
+            <!---------- Input Box Column Div ---------->
+            <div class="column">
+                <div class="input-box">
+                    <label>Species</label>
+                    <input type="text" name="species" placeholder="Species" required>
+                </div>
+                <div class="input-box">
+                    <label>Date of Birth</label>
+                    <input type="date" name="birth-date" required>
+                </div>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label>Breed</label>
+                    <input type="text" name="breed" placeholder="Breed" required>
+                </div>
+                <div class="input-box">
+                    <label>Color Markings</label>
+                    <input type="text" name="color-markings" placeholder="Color Markings" required>
+                </div>
+            </div>
+            <!---------- Terms and Condition ---------->
+            <div class="field-terms">
+                <input type="checkbox" class="check-button" required>
+                <label class="check">I Accept the Terms and Conditions</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+</html>
